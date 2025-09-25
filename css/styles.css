@@ -1,0 +1,127 @@
+:root {
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/** -----------------HEADER----------------- */
+.header {
+}
+.header-nav {
+}
+.header-logo {
+  color: #111;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+}
+.header-logo-span {
+  font-style: italic;
+}
+
+.header-menu-list {
+}
+.header-menu-item {
+}
+.header-menu-link {
+  color: #111;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+.header-soc-list {
+}
+.header-soc-item {
+}
+.header-soc-link {
+}
+
+/** -----------------MAIN----------------- */
+
+/* ----------HERO-------- */
+.hero {
+  background: rgba(17, 17, 17, 0.6);
+}
+.hero-title {
+  color: #fff;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+}
+.hero-btn {
+  color: #fff;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+}
+.hero-link-btn {
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+.hero-scrl-btn {
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+}
+
+/* ----------ADVANTAGES-------- */
+
+.advantages {
+  background-color: #1e1823;
+}
+.advantages-list {
+}
+.advantages-item {
+}
+.advantages-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+.advantages-text {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+/* ----------3-------- */
+
+/* ----------4-------- */
+
+/* ----------5-------- */
+
+/* ----------6-------- */
+
+/* ----------7-------- */
+
+/** -----------------FOOTER----------------- */
