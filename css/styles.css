@@ -1,8 +1,19 @@
 :root {
+  --main-font: "Montserrat", sans-serif;
+  --main-color: #111;
+  --second-color: #fff;
+  --spn-color: #fd9222;
+  --bcg-color: #1e1823;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--main-font);
+  color: var(--main-color);
+  background-color: #fafafa;
+}
+
+button {
+  cursor: pointer;
 }
 
 a {
@@ -33,7 +44,7 @@ ol {
 .header-nav {
 }
 .header-logo {
-  color: #111;
+  color: var(--main-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 1.11;
@@ -48,7 +59,7 @@ ol {
 .header-menu-item {
 }
 .header-menu-link {
-  color: #111;
+  color: var(--main-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -68,42 +79,59 @@ ol {
   background: rgba(17, 17, 17, 0.6);
 }
 .hero-title {
-  color: #fff;
+  color: var(--second-color);
   font-weight: 500;
   font-size: 28px;
   line-height: 1.21;
   letter-spacing: -0.03em;
 }
 .hero-btn {
-  color: #fff;
+  color: var(--second-color);
   font-family: inherit;
   font-weight: 600;
   font-size: 14px;
 }
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--spn-color);
+}
+
 .hero-link-btn {
-  color: #fff;
+  color: var(--second-color);
   font-weight: 600;
   font-size: 14px;
 }
+
+.hero-link-btn:hover,
+.hero-link-btn:focus {
+  color: var(--spn-color);
+}
+
 .hero-scrl-btn {
-  color: #fff;
+  color: var(--second-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.03em;
 }
 
+.hero-scrl-btn:hover,
+.hero-scrl-btn:focus {
+  color: var(--spn-color);
+}
+
 /* ----------ADVANTAGES-------- */
 
 .advantages {
-  background-color: #1e1823;
+  background-color: var(--bcg-color);
 }
 .advantages-list {
 }
 .advantages-item {
 }
 .advantages-title {
-  color: #fff;
+  color: var(--second-color);
   font-weight: 600;
   font-size: 18px;
 }
@@ -114,14 +142,256 @@ ol {
   letter-spacing: -0.02em;
 }
 
-/* ----------3-------- */
+/* ----------INGREDIENTS-------- */
 
-/* ----------4-------- */
+.ingredients {
+}
+.ingredients-title {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.ingredients-spn {
+  color: var(--spn-color);
+}
+.ingredients-text {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+.ingredients-list {
+}
+.ingredients-item {
+}
+.ingredients-descr {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
 
-/* ----------5-------- */
+/* ----------PROCESS-------- */
 
-/* ----------6-------- */
+.process {
+}
+.process-title {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.process-spn {
+  color: var(--spn-color);
+}
+.process-text {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+}
+.process-list {
+}
+.process-item {
+}
+.process-descr {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
 
-/* ----------7-------- */
+/* ----------PRODUCTS-------- */
+
+.products {
+}
+.products-title {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.products-spn {
+  color: var(--spn-color);
+}
+.products-list {
+}
+.products-item {
+}
+.products-item-title {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.products-text {
+  color: rgba(17, 17, 17, 0.7);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+}
+.products-item-spn {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* ----------SELLERS-------- */
+
+.sellers {
+}
+.sellers-title {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.sellers-btn {
+  color: var(--spn-color);
+}
+.sellers-list {
+}
+.sellers-item {
+}
+.sellers-descr {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+/* ----------REVIEW-------- */
+
+.review {
+}
+.review-title {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.review-spn {
+  color: var(--spn-color);
+}
+.review-list {
+}
+.review-item {
+}
+.review-name {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+}
+.review-text {
+  color: rgba(17, 17, 17, 0.7);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+.review-btn {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.review-btn:hover,
+.review-btn:focus {
+  color: var(--second-color);
+}
 
 /** -----------------FOOTER----------------- */
+
+.footer {
+  background-color: var(--bcg-color);
+}
+.footer-text {
+  color: var(--second-color);
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+}
+.footer-spn {
+  color: var(--spn-color);
+}
+.footer-social {
+  color: var(--second-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+}
+.footer-list {
+}
+.footer-item {
+}
+.footer-item-link {
+  color: var(--second-color);
+}
+.footer-info {
+  color: var(--second-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+}
+.footer-address {
+}
+.footer-address-list {
+}
+.footer-address-item {
+}
+.footer-address-link {
+  font-style: normal;
+  color: var(--second-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+.footer-nav {
+}
+.footer-nav-list {
+}
+.footer-nav-item {
+}
+.footer-nav-link {
+  font-style: normal;
+  color: var(--second-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  vertical-align: middle;
+}
