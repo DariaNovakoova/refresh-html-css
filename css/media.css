@@ -1,0 +1,497 @@
+/** -----------------BREAK-POINT----------------- */
+
+/*! --- PHONE --- */
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 365px;
+  }
+
+  /** -----------------HEADER----------------- */
+
+  /*==== MOB-MENU ===*/
+
+  /** -----------------MAIN----------------- */
+
+  /* ----------HERO-------- */
+  .hero-btn {
+    padding: 12px 28px;
+  }
+
+  .hero-link-btn {
+    padding: 12px 28px;
+  }
+
+  /* ----------ADVANTAGES-------- */
+
+  /* ----------INGREDIENTS-------- */
+  .ingredients-item {
+    padding: 32px 50px 28px;
+  }
+
+  /* ----------PROCESS-------- */
+
+  /* ----------PRODUCTS-------- */
+
+  /* ----------SELLERS-------- */
+
+  /* ----------REVIEW-------- */
+
+  /** -----------------FOOTER----------------- */
+}
+
+/*! --- TABLET --- */
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 734px;
+  }
+
+  /** -----------------HEADER----------------- */
+  .header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .header-menu {
+    display: flex;
+  }
+
+  .menu-open-btn {
+    display: none;
+  }
+
+  /*==== MOB-MENU ===*/
+
+  .mob-menu {
+    display: none;
+  }
+
+  /** -----------------MAIN----------------- */
+
+  /* ----------HERO-------- */
+  .hero {
+    padding-bottom: 40px;
+  }
+
+  .hero-wrap {
+    padding: 671px 40px 40px 40px;
+    background-image: linear-gradient(
+        rgba(17, 17, 17, 0.4),
+        rgba(17, 17, 17, 0.4)
+      ),
+      url(../images/hero-bg-tablet.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dpx) {
+    .hero-wrap {
+      background-image: linear-gradient(
+          rgba(17, 17, 17, 0.4),
+          rgba(17, 17, 17, 0.4)
+        ),
+        url(../images/hero-bg-tablet-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    font-size: 28px;
+  }
+
+  .hero-btn {
+    padding: 14px 40px;
+  }
+
+  .hero-link-btn {
+    padding: 14px 40px;
+  }
+
+  .hero-scrl-btn {
+    font-size: 14px;
+    line-height: 1.29;
+    margin-top: 0;
+    gap: 14px;
+    margin-left: auto;
+  }
+
+  .hero-down-icon {
+    width: 38px;
+    height: 38px;
+  }
+
+  /* ----------ADVANTAGES-------- */
+  .advantages {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .advantages-list {
+    padding: 0;
+    gap: 44px 88px;
+  }
+
+  .advantages-item {
+    width: calc((100% - 88px) / 2);
+  }
+
+  /* ----------INGREDIENTS-------- */
+  .ingredients {
+    padding-top: 100px;
+  }
+
+  .ingredients-title {
+    margin-bottom: 50px;
+    font-size: 24px;
+    line-height: 1.17;
+  }
+
+  .ingredients-list {
+    gap: 32px;
+  }
+
+  .ingredients-item {
+    padding: 32px 50px 28px;
+    width: calc((100% - 32px) / 2);
+  }
+
+  .ingredients-item:not(:nth-child(-n + 4)) {
+    display: block;
+  }
+
+  /* ----------PROCESS-------- */
+
+  .process-div {
+    max-width: 644px;
+  }
+
+  .process {
+    padding-top: 100px;
+  }
+
+  .process-title {
+    font-size: 24px;
+    line-height: 1.17;
+    margin-bottom: 50px;
+  }
+
+  .made-left-side {
+    width: 100%;
+  }
+
+  .made-right-side {
+    width: 100%;
+    padding: 32px;
+  }
+
+  .process-text {
+    max-width: 350px;
+    margin-bottom: 28px;
+  }
+
+  .process-item {
+    max-width: 480px;
+  }
+
+  /* ----------PRODUCTS-------- */
+  .products {
+    padding-top: 100px;
+  }
+
+  .products-title {
+    font-size: 24px;
+    line-height: 1.17;
+    margin-bottom: 50px;
+  }
+
+  .products-item {
+    width: calc((100% - 32px) / 2);
+  }
+
+  /* ----------SELLERS-------- */
+  .sellers {
+    padding-top: 100px;
+  }
+
+  .sellers-title {
+    font-size: 24px;
+    line-height: 1.17;
+    margin-bottom: 50px;
+  }
+
+  .sellers-item {
+    width: calc((100% - 16px) / 2);
+  }
+
+  .sellers-item:not(:first-child) {
+    display: block;
+  }
+
+  .sellers-item:not(:nth-child(-n + 2)) {
+    display: none;
+  }
+
+  /* ----------REVIEW-------- */
+  .review {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .review-title {
+    font-size: 24px;
+    line-height: 1.17;
+    margin-bottom: 90px;
+  }
+
+  .review-list {
+    margin-bottom: 50px;
+    display: flex;
+    gap: 16px;
+  }
+
+  .review-item:not(:nth-child(1)) {
+    display: unset;
+  }
+
+  .review-item:not(:nth-child(-n + 2)) {
+    display: none;
+  }
+
+  .review-item {
+    padding: 0 16px 42px;
+    width: calc((100% - 16px) / 2);
+  }
+
+  .review-btn {
+    font-size: 18px;
+    padding: 14px 40px;
+  }
+
+  /** -----------------FOOTER----------------- */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1165px) {
+  .ingredients-item:nth-child(1) {
+    order: -8;
+  }
+
+  .ingredients-item:nth-child(2) {
+    order: -7;
+  }
+
+  .ingredients-item:nth-child(3) {
+    order: -5;
+  }
+
+  .ingredients-item:nth-child(4) {
+    order: -6;
+  }
+
+  .ingredients-item:nth-child(5) {
+    order: -5;
+  }
+
+  .ingredients-item:nth-child(6) {
+    order: -4;
+  }
+
+  .ingredients-item:nth-child(7) {
+    order: -2;
+  }
+
+  .ingredients-item:nth-child(8) {
+    order: -3;
+  }
+}
+
+/*! --- DESKTOP --- */
+
+@media screen and (min-width: 1166px) {
+  .container {
+    max-width: 1166px;
+  }
+
+  /** -----------------HEADER----------------- */
+  .header-logo {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+
+  .header-logo-img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .header-menu {
+    gap: 90px;
+  }
+
+  .header-soc-list {
+    gap: 14px;
+  }
+  /*==== MOB-MENU ===*/
+
+  /** -----------------MAIN----------------- */
+
+  /* ----------HERO-------- */
+  .hero {
+    padding-bottom: 80px;
+  }
+
+  .hero-wrap {
+    padding: 380px 40px 40px 40px;
+    background-image: linear-gradient(
+        rgba(17, 17, 17, 0.4),
+        rgba(17, 17, 17, 0.4)
+      ),
+      url(../images/hero-bg.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dpx) {
+    .hero-wrap {
+      background-image: linear-gradient(
+          rgba(17, 17, 17, 0.4),
+          rgba(17, 17, 17, 0.4)
+        ),
+        url(../images/hero-bg-2x.jpg);
+    }
+  }
+
+  /* ----------ADVANTAGES-------- */
+  .advantages {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .advantages-list {
+    padding: 0 18px;
+    gap: 88px;
+  }
+
+  .advantages-item {
+    width: calc((100% - 2 * 88px) / 3);
+  }
+
+  .advantages-item:not(:last-child)::after {
+    display: block;
+  }
+
+  /* ----------INGREDIENTS-------- */
+  .ingredients {
+    padding-top: 120px;
+  }
+
+  .ingredients-title {
+    margin-bottom: 50px;
+    font-size: 24px;
+    line-height: 1.17;
+  }
+
+  .ingredients-list {
+    gap: 24px 32px;
+  }
+
+  .ingredients-item {
+    width: calc((100% - 96px) / 4);
+    padding: 28px 23px;
+  }
+
+  .ingredients-item:not(:nth-child(-n + 4)) {
+    display: block;
+  }
+
+  .ingredients-img {
+    margin-bottom: 36px;
+  }
+
+  /* ----------PROCESS-------- */
+  .process-div {
+    max-width: 1166px;
+  }
+
+  .process {
+    padding-top: 120px;
+  }
+
+  .made-div {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+  }
+
+  .made-left-side {
+    width: 600px;
+  }
+
+  .made-right-side {
+    width: unset;
+  }
+
+  .process-item {
+    max-width: 426px;
+  }
+
+  .process-item:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  /* ----------PRODUCTS-------- */
+  .products {
+    padding-top: 120px;
+  }
+
+  .products-list {
+    gap: 24px 18px;
+  }
+
+  .products-item {
+    width: calc((100% - 3 * 18px) / 4);
+  }
+
+  /* ----------SELLERS-------- */
+  .sellers {
+    padding-top: 120px;
+  }
+
+  .sellers-item {
+    width: calc((100% - 2 * 16px) / 3);
+  }
+
+  .sellers-item:not(:nth-child(-n + 2)) {
+    display: block;
+  }
+
+  /* ----------REVIEW-------- */
+  .review {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .review-title {
+    font-size: 24px;
+    line-height: 1.17;
+    margin-bottom: 90px;
+  }
+
+  .review-list {
+    gap: 28px;
+  }
+
+  .review-item:not(:nth-child(1)) {
+    display: unset;
+  }
+
+  .review-item:not(:nth-child(-n + 2)) {
+    display: unset;
+  }
+
+  .review-item {
+    padding: 24px;
+    padding-top: 0;
+    width: calc((100% - 56px) / 3);
+  }
+
+  /** -----------------FOOTER----------------- */
+}
