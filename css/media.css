@@ -38,6 +38,8 @@
   /* ----------REVIEW-------- */
 
   /** -----------------FOOTER----------------- */
+
+  /** -----------------MODAL----------------- */
 }
 
 /*! --- TABLET --- */
@@ -268,6 +270,130 @@
   }
 
   /** -----------------FOOTER----------------- */
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .footer-wrap-up {
+    flex-direction: row;
+    gap: 0;
+    padding-bottom: 50px;
+    margin-bottom: 24px;
+  }
+
+  .footer-text {
+    font-size: 28px;
+    line-height: 1.21;
+    margin-right: auto;
+  }
+
+  .footer-socials-div {
+    order: 1;
+    margin-right: 32px;
+  }
+
+  .footer-contacts-div {
+    order: 2;
+  }
+
+  .footer-wrap-down {
+    flex-direction: row;
+  }
+
+  .footer-nav-list {
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .footer-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: unset;
+  }
+
+  .footer-label {
+    flex: unset;
+  }
+
+  .footer-input {
+    min-width: 232px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .footer-subm-btn {
+    flex: unset;
+    min-width: 128px;
+  }
+
+  /** -----------------MODAL----------------- */
+  .modal {
+    max-width: 517px;
+    padding: 40px;
+  }
+
+  .modal-btn {
+    top: 24px;
+    right: 24px;
+  }
+
+  .modal-title {
+    font-size: 24px;
+    line-height: 1.17;
+    margin-bottom: 40px;
+  }
+
+  .modal-title-spn {
+    display: block;
+  }
+
+  .modal-field:not(:last-of-type) {
+    margin-bottom: 18px;
+  }
+
+  .modal-label {
+    margin-bottom: 8px;
+  }
+
+  .modal-input {
+    height: 68px;
+    font-size: 18px;
+
+    padding-left: 62px;
+    padding-right: 24px;
+  }
+
+  .modal-input::placeholder {
+    font-size: 18px;
+  }
+
+  .modal-icon {
+    width: 24px;
+    height: 24px;
+    left: 24px;
+  }
+
+  .modal-comment {
+    height: 137px;
+    font-size: 18px;
+    padding: 22px 24px;
+  }
+
+  .modal-comment::placeholder {
+    font-size: 18px;
+  }
+
+  .modal-check-text {
+    line-height: 0;
+    font-size: 14px;
+    align-items: center;
+  }
+  .form-btn {
+    margin-top: 40px;
+    padding: 14px 40px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1165px) {
@@ -494,4 +620,40 @@
   }
 
   /** -----------------FOOTER----------------- */
+  .footer-socials-div {
+    order: 1;
+    margin-right: 50px;
+  }
+
+  .footer-contacts-div {
+    order: 2;
+  }
+
+  .footer-list {
+    gap: 14px;
+  }
+
+  .footer-wrap-down {
+    gap: unset;
+  }
+
+  .footer-nav-list {
+    gap: 24px;
+  }
+
+  .footer-input {
+    font-size: 18px;
+    min-width: 313px;
+  }
+
+  .footer-input::placeholder {
+    font-size: 18px;
+  }
+
+  .footer-subm-btn {
+    flex: unset;
+    min-width: 137px;
+  }
+
+  /** -----------------MODAL----------------- */
 }

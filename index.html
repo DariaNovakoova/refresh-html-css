@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/media.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
@@ -37,10 +37,12 @@
                 <a class="header-menu-link link" href="">Home</a>
               </li>
               <li class="header-menu-item">
-                <a class="header-menu-link link" href="">How it’s made?</a>
+                <a class="header-menu-link link" href="#made">How it’s made?</a>
               </li>
               <li class="header-menu-item">
-                <a class="header-menu-link link" href="">Chocolate is loved</a>
+                <a class="header-menu-link link" href="#review"
+                  >Chocolate is loved</a
+                >
               </li>
             </ul>
           </nav>
@@ -93,7 +95,7 @@
               <use href="./images/icons.svg#icon-close-menu-header"></use>
             </svg>
           </button>
-  
+
           <ul class="header-mob-menu-list list">
             <li class="header-mob-menu-item">
               <a class="header-mob-menu-link link" href="">Home</a>
@@ -102,7 +104,9 @@
               <a class="header-mob-menu-link link" href="">How it’s made?</a>
             </li>
             <li class="header-mob-menu-item">
-              <a class="header-mob-menu-link link" href="">Chocolate is loved</a>
+              <a class="header-mob-menu-link link" href=""
+                >Chocolate is loved</a
+              >
             </li>
           </ul>
         </div>
@@ -149,7 +153,8 @@
         <div class="container">
           <div class="hero-wrap">
             <h1 class="hero-title">
-              Treat yourself or a loved one to<br> our finest ingredients for a moment of pure delight!
+              Treat yourself or a loved one to<br />
+              our finest ingredients for a moment of pure delight!
             </h1>
             <div class="hero-btns-block">
               <button class="hero-btn" type="button">Buy now</button>
@@ -228,10 +233,7 @@
           <ul class="ingredients-list list">
             <li class="ingredients-item">
               <img
-                srcset="
-                    ./images/choco-min.png    1x, 
-                    ./images/choco-min-2x.png 2x
-                "
+                srcset="./images/choco-min.png 1x, ./images/choco-min-2x.png 2x"
                 class="ingredients-img"
                 src="./images/choco-min.png"
                 alt="MILK CHOCOLATE"
@@ -242,10 +244,7 @@
             </li>
             <li class="ingredients-item">
               <img
-                srcset="
-                    ./images/milk-min.png    1x, 
-                    ./images/milk-min-2x.png 2x
-                "
+                srcset="./images/milk-min.png 1x, ./images/milk-min-2x.png 2x"
                 class="ingredients-img"
                 src="./images/milk-min.png"
                 alt="MILK"
@@ -257,8 +256,8 @@
             <li class="ingredients-item">
               <img
                 srcset="
-                    ./images/huslnut-min.png    1x, 
-                    ./images/huslnut-min-2x.png 2x
+                  ./images/huslnut-min.png    1x,
+                  ./images/huslnut-min-2x.png 2x
                 "
                 class="ingredients-img"
                 src="./images/huslnut-min.png"
@@ -271,8 +270,8 @@
             <li class="ingredients-item">
               <img
                 srcset="
-                    ./images/drop-choc-min.png    1x, 
-                    ./images/drop-choc-min-2x.png 2x
+                  ./images/drop-choc-min.png    1x,
+                  ./images/drop-choc-min-2x.png 2x
                 "
                 class="ingredients-img"
                 src="./images/drop-choc-min.png"
@@ -284,10 +283,7 @@
             </li>
             <li class="ingredients-item">
               <img
-                srcset="
-                    ./images/cacao-min.png    1x, 
-                    ./images/cacao-min-2x.png 2x
-                "
+                srcset="./images/cacao-min.png 1x, ./images/cacao-min-2x.png 2x"
                 class="ingredients-img"
                 src="./images/cacao-min.png"
                 alt="CACAO"
@@ -299,8 +295,8 @@
             <li class="ingredients-item">
               <img
                 srcset="
-                    ./images/rasberry-min.png    1x, 
-                    ./images/rasberry-min-2x.png 2x
+                  ./images/rasberry-min.png    1x,
+                  ./images/rasberry-min-2x.png 2x
                 "
                 class="ingredients-img"
                 src="./images/rasberry-min.png"
@@ -312,10 +308,7 @@
             </li>
             <li class="ingredients-item">
               <img
-                srcset="
-                    ./images/coco-min.png    1x, 
-                    ./images/coco-min-2x.png 2x
-                "
+                srcset="./images/coco-min.png 1x, ./images/coco-min-2x.png 2x"
                 class="ingredients-img"
                 src="./images/coco-min.png"
                 alt="COCONUT OIL"
@@ -326,10 +319,7 @@
             </li>
             <li class="ingredients-item">
               <img
-                srcset="
-                    ./images//vanille.png    1x, 
-                    ./images//vanille-2x.png 2x
-                "
+                srcset="./images//vanille.png 1x, ./images//vanille-2x.png 2x"
                 class="ingredients-img"
                 src="./images/vanille.png"
                 alt="vanilla"
@@ -350,29 +340,32 @@
           <div class="made-div">
             <div class="made-left-side">
               <picture>
-                <source 
+                <source
                   srcset="
-                    ./images/simply-chocolate.jpg 1x, 
+                    ./images/simply-chocolate.jpg    1x,
                     ./images/simply-chocolate-2x.jpg 2x
-                  " 
-                  media="(min-width: 1166px)">
-                <source 
+                  "
+                  media="(min-width: 1166px)"
+                />
+                <source
                   srcset="
-                    ./images/simply-chocolate-tablet.jpg 1x, 
+                    ./images/simply-chocolate-tablet.jpg    1x,
                     ./images/simply-chocolate-tablet-2x.jpg 2x
-                  " 
-                  media="(min-width: 768px)">
-                <source 
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
                   srcset="
-                    ./images/simply-chocolate-mob.jpg 1x, 
+                    ./images/simply-chocolate-mob.jpg    1x,
                     ./images/simply-chocolate-mob-2x.jpg 2x
-                  " 
-                  media="(min-width: 320px)">  
+                  "
+                  media="(min-width: 320px)"
+                />
                 <img
-                src="./images/simply-chocolate.jpg"
-                alt="liquid chocolate"
-                width="614"
-              />  
+                  src="./images/simply-chocolate.jpg"
+                  alt="liquid chocolate"
+                  width="614"
+                />
               </picture>
             </div>
             <div class="made-right-side">
@@ -425,10 +418,7 @@
           <ul class="products-list list">
             <li class="products-item">
               <img
-                srcset="
-                    ./images/orange.jpg    1x, 
-                    ./images/orange-2x.jpg 2x
-                "
+                srcset="./images/orange.jpg 1x, ./images/orange-2x.jpg 2x"
                 class="products-img"
                 src="./images/orange.jpg"
                 alt="orange"
@@ -439,10 +429,7 @@
             </li>
             <li class="products-item">
               <img
-                srcset="
-                    ./images/apple.jpg    1x, 
-                    ./images/apple-2x.jpg 2x
-                "
+                srcset="./images/apple.jpg 1x, ./images/apple-2x.jpg 2x"
                 class="products-img"
                 src="./images/apple.jpg"
                 alt="APPLE CRANBERRY"
@@ -453,10 +440,7 @@
             </li>
             <li class="products-item">
               <img
-                srcset="
-                    ./images/lime.jpg    1x, 
-                    ./images/lime-2x.jpg 2x
-                "
+                srcset="./images/lime.jpg 1x, ./images/lime-2x.jpg 2x"
                 class="products-img"
                 src="./images/lime.jpg"
                 alt="lime sea salt"
@@ -467,10 +451,7 @@
             </li>
             <li class="products-item">
               <img
-                srcset="
-                    ./images/pineapple.jpg    1x, 
-                    ./images/pineapple-2x.jpg 2x
-                "
+                srcset="./images/pineapple.jpg 1x, ./images/pineapple-2x.jpg 2x"
                 class="products-img"
                 src="./images/pineapple.jpg"
                 alt="pineapple"
@@ -482,8 +463,8 @@
             <li class="products-item">
               <img
                 srcset="
-                    ./images/classic-milk.jpg    1x, 
-                    ./images/classic-milk-2x.jpg 2x
+                  ./images/classic-milk.jpg    1x,
+                  ./images/classic-milk-2x.jpg 2x
                 "
                 class="products-img"
                 src="./images/classic-milk.jpg"
@@ -494,14 +475,12 @@
               <span class="products-item-spn">45 UAH</span>
             </li>
             <li class="products-item">
-              <img 
-                srcset="
-                    ./images/honey.jpg    1x, 
-                    ./images/honey-2x.jpg 2x
-                "
-                class="products-img" 
-                src="./images/honey.jpg" 
-                alt="honey" />
+              <img
+                srcset="./images/honey.jpg 1x, ./images/honey-2x.jpg 2x"
+                class="products-img"
+                src="./images/honey.jpg"
+                alt="honey"
+              />
               <h3 class="products-item-title">honey</h3>
               <p class="products-text">Milk chocolate</p>
               <span class="products-item-spn">50 UAH</span>
@@ -509,8 +488,8 @@
             <li class="products-item">
               <img
                 srcset="
-                    ./images/roasted-fruits.jpg    1x, 
-                    ./images/roasted-fruits-2x.jpg 2x
+                  ./images/roasted-fruits.jpg    1x,
+                  ./images/roasted-fruits-2x.jpg 2x
                 "
                 class="products-img"
                 src="./images/roasted-fruits.jpg"
@@ -523,8 +502,8 @@
             <li class="products-item">
               <img
                 srcset="
-                    ./images/classic-white.jpg    1x, 
-                    ./images/classic-white-2x.jpg 2x
+                  ./images/classic-white.jpg    1x,
+                  ./images/classic-white-2x.jpg 2x
                 "
                 class="products-img"
                 src="./images/classic-white.jpg"
@@ -547,10 +526,7 @@
             <li class="sellers-item">
               <div class="sellers-cover-wrap">
                 <img
-                  srcset="
-                    ./images/img-1.jpg    1x, 
-                    ./images/img-1-2x.jpg 2x
-                    "
+                  srcset="./images/img-1.jpg 1x, ./images/img-1-2x.jpg 2x"
                   class="sellers-img"
                   src="./images/img-1.jpg"
                   alt="CHOCOLATE WITH NUTS"
@@ -572,10 +548,7 @@
             <li class="sellers-item">
               <div class="sellers-cover-wrap">
                 <img
-                  srcset="
-                    ./images/img-2.jpg    1x, 
-                    ./images/img-2-2x.jpg 2x
-                    "
+                  srcset="./images/img-2.jpg 1x, ./images/img-2-2x.jpg 2x"
                   class="sellers-img"
                   src="./images/img-2.jpg"
                   alt="CHOCOLATE WITH FRUITS"
@@ -596,10 +569,7 @@
             <li class="sellers-item">
               <div class="sellers-cover-wrap">
                 <img
-                  srcset="
-                    ./images/img-3.jpg    1x, 
-                    ./images/img-3-2x.jpg 2x
-                    "
+                  srcset="./images/img-3.jpg 1x, ./images/img-3-2x.jpg 2x"
                   class="sellers-img"
                   src="./images/img-3.jpg"
                   alt="DARK CHOCOLATE"
@@ -622,7 +592,7 @@
         </div>
       </section>
 
-      <section class="review">
+      <section id="review" class="review">
         <div class="container">
           <h2 class="review-title">
             <span class="review-spn">chocolate</span> is loved
@@ -630,10 +600,7 @@
           <ul class="review-list list">
             <li class="review-item">
               <img
-                srcset="
-                    ./images/name-1.png    1x, 
-                    ./images/name-1-2x.png 2x
-                "
+                srcset="./images/name-1.png 1x, ./images/name-1-2x.png 2x"
                 class="review-img"
                 src="./images/name-1.png"
                 alt="Victoria Dobrzhanska"
@@ -648,10 +615,7 @@
             </li>
             <li class="review-item">
               <img
-                srcset="
-                    ./images/name-2.png    1x, 
-                    ./images/name-2-2x.png 2x
-                "
+                srcset="./images/name-2.png 1x, ./images/name-2-2x.png 2x"
                 class="review-img"
                 src="./images/name-2.png"
                 alt="Nazar Babenko"
@@ -667,10 +631,7 @@
             </li>
             <li class="review-item">
               <img
-                srcset="
-                    ./images/name-3.png    1x, 
-                    ./images/name-3-2x.png 2x
-                "
+                srcset="./images/name-3.png 1x, ./images/name-3-2x.png 2x"
                 class="review-img"
                 src="./images/name-3.png"
                 alt="Olena Kampusch"
@@ -693,7 +654,7 @@
     </main>
 
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-container">
         <div class="footer-wrap-up">
           <p class="footer-text">
             <span class="footer-spn">Chocolate</span> a delicious cure for a bad
@@ -761,20 +722,23 @@
                 <a class="footer-nav-link link" href="">Home</a>
               </li>
               <li class="footer-nav-item">
-                <a class="footer-nav-link link" href="">How it’s made?</a>
+                <a class="footer-nav-link link" href="#made">How it’s made?</a>
               </li>
               <li class="footer-nav-item">
-                <a class="footer-nav-link link" href="">Chocolate is loved</a>
+                <a class="footer-nav-link link" href="#review"
+                  >Chocolate is loved</a
+                >
               </li>
             </ul>
           </nav>
           <form class="footer-form">
             <label aria-label="footer email input" class="footer-label">
-              <input 
-                type="email" 
-                name="footer-email" 
-                class="footer-input" 
-                placeholder="Enter your email">
+              <input
+                type="email"
+                name="footer-email"
+                class="footer-input"
+                placeholder="Enter your email"
+              />
             </label>
             <button type="submit" class="footer-subm-btn">Subscribe</button>
           </form>
@@ -784,7 +748,11 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-btn" type="button" data-modal-close>X</button>
+        <button class="modal-btn" type="button" data-modal-close>
+          <svg class="modal-close-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-close-modal"></use>
+          </svg>
+        </button>
 
         <p class="modal-title">
           LEAVE A REVIEW ABOUT
@@ -792,7 +760,6 @@
         </p>
 
         <form class="modal-form">
-
           <div class="modal-field">
             <label for="user-name" class="modal-label">Name</label>
             <div class="modal-input-wrap">
@@ -855,20 +822,27 @@
           </div>
 
           <div class="modal-field">
-            <input type="checkbox" id="policy" name="policy" value="true" class="modal-check visually-hidden"/>
-            <label for="policy" class="modal-check-text"
-              >
+            <input
+              type="checkbox"
+              id="policy"
+              name="policy"
+              value="true"
+              class="modal-check visually-hidden"
+            />
+            <label for="policy" class="modal-check-text">
               <span>
                 <svg class="chek-icon" width="10" height="10">
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the&nbsp;<a href="" class="modal-check-link">Privacy Policy</a href=""></label
-            >
+              <div class="check-policy">
+                I accept the terms and conditions of the
+                <a href="" class="modal-check-link">Privacy Policy</a>
+              </div>
+            </label>
           </div>
 
           <button type="submit" class="form-btn">Send</button>
-
         </form>
       </div>
     </div>
